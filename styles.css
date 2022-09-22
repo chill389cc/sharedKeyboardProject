@@ -1,0 +1,97 @@
+/* global stuff */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
+}
+/*reviews styles*/
+.review-body {
+    padding: 20px;
+    margin: 5px;
+}
+
+.review {
+    background-color: #f1f1f1;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.review-info {
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.review-text {
+    padding: 5px;
+}
+
+/* porfolio styles */
+.portfolio-container {
+    padding-top: 20px;
+}
+
+.portfolio-footer {
+    padding-top: 10px;
+}
+
+.imgbox {
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    border: 1px solid darkgray;
+    /*border-radius: 5px;*/
+    padding: 5px;
+}
+
+.imgbox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgcaption {
+    text-align: center;
+    font-size: 1.1em;
+    color: black;
+}
+
+.imgcreds {
+    text-align: right;
+    font-size: 0.8em;
+    color: gray;
+}
+/* home page styles *!*/
+.thumbnails img, p {
+    margin: 10%;
+    max-width: 90%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+/* About page styles */
+.bio {
+    padding-top: 20px;
+}
+/*@media only screen and (max-width: 400px) {*/
+/*    .lists {*/
+/*        margin-top: 30px;*/
+/*    }*/
+/*}*/
