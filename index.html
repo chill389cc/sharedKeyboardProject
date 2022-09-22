@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <title>Stone Shooter</title>
-    <meta charset="utf-8">
+    <meta charset='UTF-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="/img/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="./index.html">Stone Shooter</a>
+<div class="banner">
+    <h1>Keyboards</h1>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="./index.html">Cool Clack Club</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,37 +40,61 @@
         <div class="col-sm-8">
             <div class="page-header header">
                 <h1>Want Your Rocks to Rock? <br><small>Let me photograph them.</small></h1>
-                <p>
-                    <a class="btn btn-primary btn-large" href="./portfolio.html">
-                        See My Portfolio
+
+                <div class="feed-grid">
+                    <a href="">
+                        <div class="feed-item">
+                            <img src="img/keeb1/img1.jpg" alt="John's Keyboard">
+                        </div>
                     </a>
-                </p>
-                <div class="imgbox">
-                    <img src="img/photographer1.jpg" alt="rock photographer">
-                    <p class="imgcaption">I have years of experience in capturing the beauty of rock in any conditions.</p>
-                    <p class="imgcreds">Thanks to <a href="https://flic.kr/p/98LMWL">David Ayres</a> for this portrait!</p>
+                    <a href="">
+                        <div class="feed-item">
+                            <img src="img/keeb2/20200608_162413.jpg" alt="Roger's Keyboard">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="feed-item">
+                            <img src="img/keeb3/img1.jpg" alt="Jessica's Keyboard">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="feed-item">
+                            <img src="img/keeb4/img1.jpg" alt="Ronald's Keyboard">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="feed-item">
+                            <img src="img/keeb5/64728000108__18187149-7D91-41B8-8C66-AED552C97699.jpg" alt="Hailey's Keyboard">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="feed-item">
+                            <img src="img/keeb6/20200420_131339.jpg" alt="Caleb's Keyboard">
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
+            <div class="action-center">
+                <a class="btn btn-primary btn-large" href="./portfolio.html">
+                    New Post
+                </a>
+            </div>
             <div class="page-header">
-                <h3 class="header">A Sneak Peek:</h3>
+                <h3 class="header">About Us:</h3>
             </div>
             <div class="page-content">
-                <ul class="thumbnails">
-                    <li class="span4">
-                        <img src="img/rocks1.jpg" alt="">
-                    </li>
-                    <li class="span4">
-                        <img src="img/rocks2.jpg" alt="">
-                    </li>
-                    <li class="span4">
-                        <img src="img/rocks3.jpg" alt="">
-                    </li>
-                    <li>
-                        <p>...And much more!</p>
-                    </li>
-                </ul>
+                <div class="card about-us-card bg-light mb3">
+                    <div class="card-header">
+                        <h4>Who We Are</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Cool Clack Club</h5>
+                        <p class="card-text">We are a group of keyboard enthusiasts who love to take pictures of keyboards. We are based in the United States, but we have members all over the world. We are always looking for new members to join our club. If you are interested in joining, please contact us.</p>
+                        <a href="./about.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
