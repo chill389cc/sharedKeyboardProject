@@ -11,6 +11,14 @@ body {
     color: black;
     background-color: white;
 }
+
+/*
+navbar styles
+ */
+.navbar {
+    margin-bottom: 30px;
+}
+
 /*reviews styles*/
 .review-body {
     padding: 20px;

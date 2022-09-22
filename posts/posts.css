@@ -1,0 +1,19 @@
+img {
+    width: 90%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.post-detail-col {
+    height: 100%;
+    text-align: -webkit-center;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        height: 300px;
+    }
+    .post-detail {
+        margin-top: 10px;
+    }
+}
