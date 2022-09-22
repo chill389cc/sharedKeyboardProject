@@ -90,6 +90,7 @@ ul {
 
 .header {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* About page styles */
@@ -102,6 +103,16 @@ ul {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     padding: 10px;
+}
+
+.feed-grid a {
+    text-decoration: none;
+    color: black;
+}
+
+.feed-grid a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .feed-item {
@@ -117,6 +128,10 @@ ul {
     height: auto;
 }
 
+.feed-item .card-text {
+    text-align: right;
+}
+
 .banner {
     background-color: #f1f1f1;
     padding: 5px;
@@ -126,6 +141,20 @@ ul {
     text-align: center;
     font-size: 5em;
     color: black;
+}
+
+.card {
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+}
+
+.feed-item {
+    transition: transform 0.2s ease;
+}
+
+.feed-item:hover {
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 450px) {
