@@ -19,31 +19,6 @@ navbar styles
     margin-bottom: 30px;
 }
 
-/*reviews styles*/
-.review-body {
-    padding: 20px;
-    margin: 5px;
-}
-
-.review {
-    background-color: #f1f1f1;
-    border: 1px solid darkgray;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 10px;
-}
-
-.review-info {
-    padding: 5px;
-    background-color: white;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.review-text {
-    padding: 5px;
-}
-
 /* porfolio styles */
 .portfolio-container {
     padding-top: 20px;
