@@ -9,9 +9,63 @@ img {
     text-align: -webkit-center;
 }
 
+/*reviews styles*/
+.reviews-body {
+    padding: 20px;
+    margin: 5px;
+}
+
+.review {
+    background-color: #f1f1f1;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.review-body {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: flex-end;
+}
+
+.date {
+    text-align: right;
+    align-self: end;
+}
+
+.review-info {
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    align-self: start;
+}
+
+.review-info img {
+    width: 50%;
+    height: auto;
+}
+
+.review-text {
+    padding-top: 25px;
+    align-self: start;
+}
+
+
 @media only screen and (max-width: 600px) {
     img {
         height: 300px;
+    }
+    .review-info {
+        text-align: left;
+        display: flex;
+    }
+    .review-info img {
+        width: auto;
+        margin-right: 10px;
+        height: 50px;
     }
     .post-detail {
         margin-top: 10px;
