@@ -19,6 +19,15 @@ navbar styles
     margin-bottom: 30px;
 }
 
+/*
+footer styles
+ */
+footer {
+    margin-top: 30px;
+
+    padding: 10px;
+}
+
 /* porfolio styles */
 .portfolio-container {
     padding-top: 20px;
