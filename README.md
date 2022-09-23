@@ -1,13 +1,15 @@
 # Plan
+Home page - update footer/navbar like the other pages
 
-Home page - grid with one photo of each keeb
+Detail page - update footer/navbar like the other pages
+also make the other pages
 
-About page - the description of the 'forum', forum rules
+About page - fix the content of it to make it have about info and rules
 
-Detail page - for each keeb we can describe the details of it, add additional photos, have user comments below, etc.
+Create post page - do everything.
 
-Create post page - just empty fields and buttons. No need to implement the actual signup functionality.
+figure out if we want a favicon
 
+figure out what to make the titles of each page (what appears in the browser tab)
 
-reminders:
-we need to have a footer with both of our names on it
+add the footer
