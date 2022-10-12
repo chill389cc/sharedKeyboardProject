@@ -77,6 +77,10 @@ ul {
     padding-bottom: 20px;
 }
 
+#feedHeader {
+    margin-left: 10px;
+}
+
 /* About page styles */
 .bio {
     padding-top: 20px;
